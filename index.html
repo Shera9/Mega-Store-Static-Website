@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!----------------------Google Fonts Link-------------------------->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Lobster&family=Maven+Pro:wght@500;600;700;800;900&family=Piazzolla:wght@200;300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">   
+<!-----------------------Bootstrap Link cdn----------------------->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-------------------Font Awesome Link---------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-----------------CSS Link-------------->
+<link rel="stylesheet" href="mega.css">
+    <title>Mega Store</title>
+</head>
+<body>
+<!---------------Nav Section starts--------------------------->    
+<section>  
+    <nav class="navbar navbar1 navbar-light d-none py-0 d-md-block">
+<!--------------------------------------------------------Nav-1 starts---------------------------------------->          
+        <div class="container">
+          <p class="text-muted mt-1"><small class="fs-0 display-0 nav-text">Welcome to Mega Store Shopping Website</small></p>
+          <form class="d-flex justify-content-between align-items-center">
+            <i aria-hidden="true" class="fas fa-th-list text-muted btn-nav"><button type="submit" class="btn btn-none fw-normal text-muted navTop-btn"><small class="fs-0 display-0 nav-text me-4 d-flex align-items-center">Sign Up</small></button></i>
+            <i aria-hidden="true" class="fas fa-user text-muted btn-nav"><button type="submit" class="btn btn-none fw-normal text-muted navTop-btn2"><small class="fs-0 display-0 nav-text d-flex align-items-center">Log in</small></button></i>
+          </form>
+        </div>
+<!-----------------------------------------------Nav-1 Ends--------------------------------------------->  
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-none nav2">
+<!----------------------------------------------------------Nav-2 starts------------------------------------------------->            
+        <div class="container">
+            <div class="row pt-4 pb-3 d-flex align-items-center pb-4">
+                <div class="col-lg-2 gx-md-5 col-sm-6 ">
+                    <a class="navbar-brand" href="#">
+                        <img src="footer-logo.svg" width="289px" height="auto" alt="Logo" class="img-fluid"></a>
+                    </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <form>
+                        <div class="input-group-sm d-flex justify-content-evenly">
+                          <input type="text" class="form-control" placeholder="Enter product name" style="width: 500px;" >
+                          <div class="input-group-btn">
+                            <button class="btn color1 btn-sm px-5" type="submit">
+                                <i class="fas fa-search fs-6 mt-1 text-white"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                </div>
+                <div class="col-lg-2 text-end d-none l-height d-lg-block">
+                    <p class="display-0 text-muted small-text"><i class="fas fa-phone"></i> Free Call Us</p>
+                    <p class="fs-5 color2">1-459-666-4545</p>
+                </div>
+                <div class="col-sm-3 d-lg-none d-flex justify-content-end ms-auto">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                </div>
+                <div class="col-lg-2 col-sm-3 text-end">
+                    <i class="fas fa-shopping-cart fs-5 color2"></i><sup><span class="rounded-circle p-2 color1 text-white zero">0</span></sup>
+                </div>   
+            </div>
+    </div>
+<!-----------------------------------Nav-2 Ends-------------------------------------------->  
+      </nav>
+      <nav class="navbar navbar-expand-lg nav3">
+<!-------------------------------------------------Nav-3 Starts------------------------------------------------->          
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link item-color mx-3" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item-color mx-3" href="#" >Shopping</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item-color mx-3" href="#" >Beauty</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link item-color mx-3" href="#" >Electronics</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item-color mx-3" href="#" >Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+<!--------------------------------------------Nav-3 Ends--------------------------------------->            
+          </nav>
+         
+</section>
+<!------------------------------Nav Section Ends------------------------>
+<section>
+<!------------------Main Section Starts------------------> 
+<div class="container pb-5">
+    <div class="row mt-3 g-4 d-flex justify-content-between">
+        <div class="col-md-3 col-lg-3 col-sm-12 color1 w-lg-25 w-md-50 col-img1">
+            <ul class="list-unstyled lh-lg m-3">
+                <ul class="d-flex list-unstyled align-items-center text-white">
+           <i aria-hidden="true" class="fas fa-motorcycle"></i><li class="mx-2">Motorbike</li>
+        </ul>
+        <ul class="d-flex list-unstyled align-items-center text-white">
+           <i aria-hidden="true" class="fas fa-book-open"></i><li class="mx-2">Industrial Supplies</li>
+        </ul>
+           <ul class="d-flex list-unstyled align-items-center text-white">
+            <i aria-hidden="true" class="fas fa-balance-scale"></i><li class="mx-2">All Industrial Supplies</li>
+        </ul>
+           <ul class="d-flex list-unstyled align-items-center text-white">
+            <i aria-hidden="true" class="fas fa-coins"></i><li class="mx-2">Lab & Scientific</li>
+        </ul>
+           <ul class="d-flex list-unstyled align-items-center text-white">
+            <i aria-hidden="true" class="fas fa-tv"></i><li class="mx-2">Janitorial</li>
+        </ul>
+           <ul class="d-flex list-unstyled align-items-center text-white">
+            <i aria-hidden="true" class="fas fa-chair"></i><li class="mx-2">Sanitation Supplies</li>
+        </ul>
+           <ul class="d-flex list-unstyled align-items-center text-white">
+            <i aria-hidden="true" class="fas fa-car"></i><li class="mx-2">Car & Motorbike</li>
+        </ul>
+           <ul class="d-flex list-unstyled align-items-center text-white">
+            <i aria-hidden="true" class="fas fa-box-open"></i><li class="mx-2">All Cars & Bikes</li>
+        </ul>
+           <ul class="d-flex list-unstyled align-items-center text-white">
+            <i aria-hidden="true" class="fas fa-ruler-combined"></i><li class="mx-2">Measure & Inspect</li>
+        </ul>
+           <ul class="d-flex list-unstyled align-items-center text-white">
+            <i aria-hidden="true" class="far fa-building"></i><li class="mx-2">Car & Bike Care</li>
+        </ul>
+           <ul class="d-flex list-unstyled align-items-center text-white">
+            <i aria-hidden="true" class="fas fa-fan"></i><li class="mx-2 fw-bolder">Lubricants</li>
+        </ul>
+        </ul>
+        </div>
+        <div class="col-md-8 col-lg-8 col-sm-12 col-img">
+            <div class="text-start mx-4 my-5">
+            <h3 class="text-white">Nano Brand</h3>
+            <h2 class="fw-bolder display-4 text-white">Kitchen<br/> Accessories</h2>
+            <button class="btn btn-light bg-white fw-bold px-5 py-2 mt-5">BUY NOW</button>
+        </div>
+        </div>
+    </div>
+</div>   
+<!------------------Main Section Ends------------------->
+</section>
+<section>
+<!-------------------Features Section Starts------------------->
+<div class="container mt-5 mb-5">
+<div class="d-flex justify-content-center fw-500 fs-5 border-bottom mb-5">
+    <p class="mx-3">Featured</p>
+    <p class="mx-3">New Arrivals</p>
+    <p class="mx-3">Best Sellers</p>
+</div>
+<div class="row">
+    <div class="col-md border-end">
+        <div class="card border-0">
+            <img src="products-13.jpg" alt="13" class="img-fluid">
+        </div>
+        <div class="card-body">
+            <p>£160.00</p>
+            <p class="features_para">Rhyton distressed leather trainers</p>
+        </div>
+    </div>
+    <div class="col-md border-end">
+        <div class="card border-0">
+            <img src="products-12.jpg" alt="13" class="img-fluid">
+        </div>
+        <div class="card-body">
+            <p>£180.20</p>
+            <p class="features_para">Summer Fridays Jet Lag Mask</p>
+        </div>
+    </div>
+    <div class="col-md border-end">
+        <div class="card border-0">
+            <img src="products-11.jpg" alt="13" class="img-fluid">
+        </div>
+        <div class="card-body">
+            <p>£240.50</p>
+            <p class="features_para">Beach Party Cotton Poplin Top</p>
+        </div>
+    </div>
+    <div class="col-md border-end">
+        <div class="card border-0">
+            <img src="products-14.jpg" alt="13" class="img-fluid">
+        </div>
+        <div class="card-body">
+            <p>£150.20</p>
+            <p class="features_para">Summer Fridays Jet Lag Mask</p>
+        </div>
+    </div>
+    <div class="col-md border-end">
+        <div class="card border-0">
+            <img src="products-06.jpg" alt="13" class="img-fluid">
+        </div>
+        <div class="card-body">
+            <p><span class="text-decoration-line-through">£170.50</span> £160.00</p>
+            <p class="features_para">Harper Shoulder Bag</p>
+        </div>
+    </div>
+    <div class="col-md border-end">
+        <div class="card border-0">
+            <img src="products-04.jpg" alt="13" class="img-fluid">
+        </div>
+        <div class="card-body">
+            <p class="">£160.20</p>
+            <p class="features_para">Long Sofa Fabric In Blue Navy Color</p>
+        </div>
+    </div>
+</div>
+</div>
+<!--------------------Features Section Ends-------------------->    
+</section>
+<section class="pt-4">
+<!------------Kitchen Section Starts------------->
+<div class="container">
+<div class="row d-flex justify-content-between">
+    <div class="col-md-4 col-lg-3 camera text-white">
+        <div class="text-img">
+        <h2>New Lorex Digital<br/> Camera</h2>
+        <p>2021 modern design</p>
+        <button class="btn btn-light btn-sm rounded-3">SHOP ALL</button>
+    </div>
+    </div>
+    <div class="col-md-8"><h1 class="border-bottom h5 fw-bolder pb-3">Kitchen</h1>
+    <div class="row mt-5">
+        
+        <div class="col-md-6 col-lg-3 border-end">
+            <img src="products-20.jpg" alt="20" class="img-fluid">
+            <p>£320.20</p>
+            <p class="features_para">Rhyton distressed leather trainers</p>
+        </div>
+        <div class="col-md-6 col-lg-3 border-end">
+            <img src="products-13.jpg" alt="20" class="img-fluid">
+            <p>£160.00</p>
+            <p class="features_para">Rhyton distressed leather trainers</p>
+        </div>
+        <div class="col-md-6 col-lg-3 border-end">
+            <img src="products-12.jpg" alt="20" class="img-fluid">
+            <p>£180.20</p>
+            <p class="features_para">Summer Fridays Jet Lag Mask</p>
+        </div>
+        <div class="col-md-6 col-lg-3 border-end">
+            <img src="products-11.jpg" alt="20" class="img-fluid">
+            <p>£240.50</p>
+            <p class="features_para">Beach Party Cotton Poplin Top</p>
+        </div>
+    </div></div>
+</div>
+</div>
+<!------------Kitchen Section Ends--------------->
+</section>
+<section class="py-5">
+<!------------Sale portion Starts------------->
+<div class="container mt-5">
+<div class="sale-img ">
+    <p class="text-white fs-2 mob-text text-lg-start text-md-center pt-5"><span class="text-sale display-3 h1 fw-bolder">Sale %25</span> <span class="ms-3">New Artbees Phones</span></p>
+    
+</div>
+<img src="home-bg-03.png" alt="BG" class="float-end d-lg-block d-none">
+</div>
+<!------------Sale portion Ends--------------->
+</section>
+<section>
+    <!-------------------Features Section Starts------------------->
+    <div class="container mt-5 mb-5">
+    <div class="d-flex justify-content-center fw-500 fs-0 border-bottom mb-5">
+        <p class="mx-3">Featured</p>
+        <p class="mx-3">Beauty</p>
+        <p class="mx-3">New Arrivals</p>
+        <p class="mx-3">Best Sellers</p>
+    </div>
+    <div class="row">
+        <div class="col-md border-end">
+            <div class="card border-0">
+                <img src="products-13.jpg" alt="13" class="img-fluid">
+            </div>
+            <div class="card-body">
+                <p>£160.00</p>
+                <p class="features_para">Rhyton distressed leather trainers</p>
+            </div>
+        </div>
+        <div class="col-md border-end">
+            <div class="card border-0">
+                <img src="products-12.jpg" alt="13" class="img-fluid">
+            </div>
+            <div class="card-body">
+                <p>£180.20</p>
+                <p class="features_para">Summer Fridays Jet Lag Mask</p>
+            </div>
+        </div>
+        <div class="col-md border-end">
+            <div class="card border-0">
+                <img src="products-11.jpg" alt="13" class="img-fluid">
+            </div>
+            <div class="card-body">
+                <p>£240.50</p>
+                <p class="features_para">Beach Party Cotton Poplin Top</p>
+            </div>
+        </div>
+        <div class="col-md border-end">
+            <div class="card border-0">
+                <img src="products-14.jpg" alt="13" class="img-fluid">
+            </div>
+            <div class="card-body">
+                <p>£150.20</p>
+                <p class="features_para">Summer Fridays Jet Lag Mask</p>
+            </div>
+        </div>
+        <div class="col-md border-end">
+            <div class="card border-0">
+                <img src="products-06.jpg" alt="13" class="img-fluid">
+            </div>
+            <div class="card-body">
+                <p><span class="text-decoration-line-through">£170.50</span> £160.00</p>
+                <p class="features_para">Harper Shoulder Bag</p>
+            </div>
+        </div>
+        <div class="col-md border-end">
+            <div class="card border-0">
+                <img src="products-04.jpg" alt="13" class="img-fluid">
+            </div>
+            <div class="card-body">
+                <p class="">£160.20</p>
+                <p class="features_para">Long Sofa Fabric In Blue Navy Color</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--------------------Features Section Ends-------------------->    
+    </section>
+<section>
+<!------------Beauty Section starts--------->
+<div class="container">
+        <h1 class="border-bottom pb-3 mb-5 fw-bold h5">Beauty</h1>
+    <div class="row g-5 d-flex justify-content-sm-center align-items-lg-center align-items-md-start py-4">
+        <div class="col-lg-4 col-md-4 col-sm-12 text-sm-center">
+            <img src="shave.jpg" alt="shave" class="img-fluid rounded-3 shave-top">
+        </div>
+       <div class="col-lg-8 col-md-8 col-sm-12">
+           <div class="row g-5 border-bottom pb-4 mb-4">
+               <div class="col-lg-3 col-6 border-end border-start d-flex align-items-lg-center align-items-sm-start justify-content-between wrap-img">
+                       <p class="shave-text mt-sm-3 float-start">Shave & Hair Removal</p>
+                       <img src="shave.jpg" alt="shave" class="img-fluid shave-img rounded-3">
+                    </div>
+                    <div class="col-lg-3 col-6 border-end d-flex align-items-lg-center align-items-sm-start justify-content-between wrap-img">
+                        <p class="shave-text mt-sm-3">Makeup</p>
+                        <img src="tools.jpg" alt="shave" class="img-fluid shave-img rounded-3">
+                     </div>
+                     <div class="col-lg-3 col-6 border-end d-flex align-items-lg-center align-items-sm-start justify-content-between wrap-img">
+                        <p class="shave-text mt-sm-3">Personal Care</p>
+                        <img src="nail-care.jpg" alt="shave" class="img-fluid shave-img rounded-3">
+                     </div>
+                     <div class="col-lg-3 col-6 border-end d-flex align-items-lg-center align-items-sm-start justify-content-between wrap-img">
+                        <p class="shave-text mt-sm-3">Hair Care</p>
+                        <img src="perosnal-care.jpg" alt="shave" class="img-fluid shave-img rounded-3">
+                     </div>
+               </div>
+               <div class="row g-5 ">
+                <div class="col-lg-3 col-6 border-end border-start d-flex align-items-lg-center align-items-sm-start justify-content-between wrap-img">
+                        <p class="shave-text mt-sm-3">Skin Care</p>
+                        <img src="skin-care.jpg" alt="shave" class="img-fluid shave-img rounded-3 mt-lg-3">
+                     </div>
+                     <div class="col-lg-3 col-6 border-end d-flex align-items-lg-center align-items-sm-start justify-content-between wrap-img">
+                         <p class="shave-text mt-sm-3">Rhyton distressed leather trainers</p>
+                         <img src="products-17.jpg" alt="shave" class="img-fluid shave-img rounded-3">
+                      </div>
+                      <div class="col-lg-3 col-6 border-end d-flex align-items-lg-center align-items-sm-start justify-content-between wrap-img">
+                         <p class="shave-text mt-sm-3">Rhyton distressed leather trainers</p>
+                         <img src="products-20.jpg" alt="shave" class="img-fluid shave-img rounded-3">
+                      </div>
+                      <div class="col-lg-3 col-6 border-end d-flex align-items-lg-center align-items-sm-start justify-content-between wrap-img">
+                         <p class="shave-text mt-sm-3">Rhyton distressed leather trainers</p>
+                         <img src="products-13.jpg" alt="shave" class="img-fluid shave-img rounded-3">
+                      </div>
+                </div>
+           </div>
+       </div>
+    </div>
+</div>
+<!------------Beauty Section ends------------->
+</section>
+<section>
+<!------------Logos section starts--------->
+<div class="container logTop">
+    <div class="row text-center g-5">
+        <div class="col-lg-2 col-md-2 col-6">
+            <img src="logo-02.jpg" alt="logo2">
+        </div>
+        <div class="col-lg-2 col-md-2 col-6">
+            <img src="logo-01.jpg" alt="logo2">
+        </div>
+        <div class="col-lg-2 col-md-2 col-6">
+            <img src="logo-04.jpg" alt="logo2">
+        </div>
+        <div class="col-lg-2 col-md-2 col-6">
+            <img src="logo-03.jpg" alt="logo2">
+        </div>
+        <div class="col-lg-2 col-md-2 col-6">
+            <img src="logo-02.jpg" alt="logo2">
+        </div>
+        <div class="col-lg-2 col-md-2 col-6">
+            <img src="logo-01.jpg" alt="logo2">
+        </div>
+    </div>
+</div>
+<!------------Logos Section Ends----------->
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+</html>
